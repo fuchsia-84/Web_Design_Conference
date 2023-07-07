@@ -21,7 +21,10 @@ body {
 .br_pc {
     display: block;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1110px) {
+    .inner {
+        width: 80%;
+    }
 }
 @media screen and (max-width: 768px) {
     .br_pc {
@@ -83,6 +86,31 @@ a#header_logo {
     font-size: 16px;
     line-height: 18px;
 }
+@media screen and (max-width: 1110px) {
+    #header {
+        width: 100%;
+        height: 60px;
+    }
+    .header_contents {
+        width: 100%;
+    }
+    a#header_logo {
+        font-size: 24px;
+        line-height: 28px;
+        font-style: normal;
+        color: #D136D1;
+        margin-top: 16px;
+    }
+    #global_nav {
+        top: 21px;
+    }
+    #global_nav ul li a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+/*top*/
 .top {
     display: block;
     width: 100%;
@@ -95,6 +123,7 @@ a#header_logo {
 }
 .top_title {
     display: block;
+    width: 100%;
     position: absolute;
     top: 145px;
     left: 0;
@@ -113,18 +142,41 @@ a#header_logo {
     font-size: 36px;
     line-height: 36px;
 }
+.top_title #sign {
+    display: block;
+    width: 40%;
+    position: absolute;
+    bottom: -100px;
+    left: 315px;
+}
 .top_title a {
+    display: block;
+    position: absolute;
     font-family: 'Noto Sans JP', sans-serif;
+    width: 300px;
+    background: linear-gradient(90deg, #C41A7F 0%, #664BBF 100%);
+    box-shadow: 0 10px 0 0 #DD118E;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 73px;
+    margin: 22.5px auto;
+    text-align: center;
 }
 .top_person {
     display: block;
-    width: calc(50% + 5px);
+    width: 100%;
+    max-width: 560px;
     position: absolute;
     top: -36px;
     right: -100px;
 }
 .top_person img {
     display: block;
+    width: 100%;
+    height: auto;
+    min-height: 736px;
     position: relative;
 }
 .top_person div {
@@ -144,4 +196,89 @@ a#header_logo {
 .top_person div p {
     font-size: 14px;
     line-height: 14px;
+}
+@media screen and (max-width: 1110px) {
+    .top {
+        height: 600px;
+        text-align: center;
+    }
+    .top_person {
+        display: none;
+    }
+    .top_title {
+        position: static;
+        padding: 147px 0 0;
+    }
+    .top_title .title {
+        position: static;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .top_title h1 {
+        position: static;
+        font-size: 72px;
+        line-height: 78px;
+    }
+    .top_title .date {
+        position: static;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .top_title #sign {
+        width: 30%;
+        bottom: 0;
+        left: calc(35% + 310px);
+        min-width: 180px;
+    }
+    .top_title a {
+        position: static;
+        width: 300px;
+        background: linear-gradient(90deg, #C41A7F 0%, #664BBF 100%);
+        box-shadow: 0 10px 0 0 #DD118E;
+        border-radius: 50px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 73px;
+        margin: 22.5px auto;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .top {
+        height: 100vh;
+        min-height: 500px;
+        margin: 0;
+    }
+    .top .inner {
+        height: 100vh;
+        min-height: 500px;
+    }
+    .top_title {
+        position: absolute;
+        height: 100vh;
+        min-height: 500px;
+        margin: 0;
+        padding: 0;
+        top: calc(50vh - 80px);
+        left: 0;
+    }
+    .top_title #sign {
+        display: none;
+    }
+    .top_title .title {
+        display: block;
+    }
+    .top_title h1 {
+        display: block;
+        font-size: 60px;
+        line-height: 68px;
+        letter-spacing: 0.016em;
+    }
+    .top_title .date {
+        display: block;
+    }
+    .top_title a {
+        position: static;
+    }
 }
