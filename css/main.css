@@ -10,7 +10,8 @@ body {
 }
 .inner {
     display: block;
-    width: 1110px;
+    width: 100%;
+    max-width: 1110px;
     margin: 0 auto;
 }
 .inner:after {
@@ -117,6 +118,7 @@ a#header_logo {
     height: 700px;
     background: linear-gradient(-80deg, #C21780 0%, #320C65 50%, #0E002E 100%);
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 .top .inner {
     position: relative;
@@ -169,20 +171,23 @@ a#header_logo {
     width: 100%;
     max-width: 560px;
     position: absolute;
+    right: 0;
     top: -36px;
-    right: -100px;
 }
 .top_person img {
     display: block;
+    position: relative;
     width: 100%;
+    max-width: 560px;
     height: auto;
     min-height: 736px;
-    position: relative;
+    right: -50px;
+
 }
 .top_person div {
     position: absolute;
     bottom: 50px;
-    right: 0;
+    right: 10px;
 }
 .top_person div h1 {
     font-family: 'Noto Sans JP', sans-serif;
