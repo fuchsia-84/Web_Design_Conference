@@ -147,9 +147,9 @@ a#header_logo {
 }
 .top_title #sign {
     display: block;
-    width: 40%;
+    width: 25%;
     position: absolute;
-    bottom: -100px;
+    bottom: -60px;
     left: 315px;
 }
 .top_title a {
