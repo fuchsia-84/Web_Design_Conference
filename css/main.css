@@ -13,7 +13,7 @@ body {
     display: block;
     width: 100%;
     max-width: 1110px;
-    margin: 0 auto;
+    margin: 110px auto;
 }
 .inner:after {
     content: "";
@@ -34,6 +34,26 @@ body {
     }
 }
 
+.title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+.title h1 {
+    display: block;
+    font-size: 60px;
+    line-height: 73px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #D136D1;
+}
+.title p {
+    display: block;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 57px;
+}
+
 /*header*/
 #header {
     width: 100%;
@@ -48,6 +68,7 @@ body {
     max-width: 100%;
     position: relative;
     z-index: 901;
+    margin: 0;
 }
 .header_contents {
     display: block;
@@ -123,6 +144,7 @@ a#header_logo {
 }
 .top .inner {
     position: relative;
+    margin: 0 auto;
 }
 .top_title {
     display: block;
@@ -288,3 +310,95 @@ a#header_logo {
         position: static;
     }
 }
+
+/*about*/
+.about_left {
+    display: block;
+    width: 40%;
+    height: auto;
+    min-width: 445px;
+    float: left;
+}
+.about_right {
+    display: block;
+    width: 60%;
+    max-width: 555px;
+    float: right;
+    margin-top: 87px;
+}
+.about_right h1 {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.about_right h2 {
+    display: block;
+    font-size: 48px;
+    line-height: 70px;
+    color: #D136D1;
+    margin-bottom: 41px;
+}
+.about_right p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+}
+.about_right dl {
+    display: block;
+    margin: 21px auto;
+    font-size: 16px;
+}
+.about_right dt {
+    display: block;
+    float: left;
+    margin-right: 1.05em;
+}
+.about_right dd {
+    display: block;
+    margin-bottom: 0.75em;
+}
+.about_right dd:last-of-type {
+    margin-bottom: 0;
+}
+.about_right a {
+    display: block;
+    font-family: 'Hiragino Sans', sans-serif;
+    font-weight: 600;
+    width: 230px;
+    background: linear-gradient(90deg, #C41A7F 0%, #664BBF 100%);
+    box-shadow: 0 10px 0 0 #DD118E;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 63px;
+    text-align: center;
+    margin: 0;
+}
+@media screen and (max-width: 1110px) {
+    .about_left {
+        width: 100%;
+        min-width: 100%;
+        float: none;
+    }
+    .about_right {
+        width: 100%;
+        min-width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    .about_right h2 {
+        text-align: center;
+    }
+    .about_right dl {
+        display: block;
+        width: 500px;
+    }
+    .about_right a {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
