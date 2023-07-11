@@ -120,7 +120,20 @@ a#header_logo {
 /*header fixed*/
 #header.fixed{
     background-color: #fff;
+    /*fadein*/
+    animation: fadeIn 1s ease 0s 1 normal;
+    -webkit-animation: fadeIn 1s ease 0s 1 normal;
 }
+/* fadeIn animation*/
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1}
+}
+
 #header.fixed #global_nav ul li a {
     color: #D136D1;
 }
