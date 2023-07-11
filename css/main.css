@@ -90,6 +90,12 @@ a#header_logo {
 }
 #nav_toggle {
     display: none;
+    position: absolute;
+    width: 32px;
+    height: 19px;
+    top: 22px;
+    right: 50px;
+    cursor: pointer;
 }
 #global_nav {
     display: block;
@@ -110,6 +116,13 @@ a#header_logo {
     color: #fff;
     font-size: 16px;
     line-height: 18px;
+}
+/*header fixed*/
+#header.fixed{
+    background-color: #fff;
+}
+#header.fixed #global_nav ul li a {
+    color: #D136D1;
 }
 @media screen and (max-width: 1110px) {
     #header {
@@ -132,6 +145,63 @@ a#header_logo {
     #global_nav ul li a {
         font-size: 16px;
         line-height: 18px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #global_nav {
+        display: block;
+        /* To do : display none */
+        width: 100%;
+        background: #fff;
+        top: 60px;
+        left: 0;
+    }
+    #global_nav ul {
+        padding: 0;
+    }
+    #global_nav ul li {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    #global_nav ul li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #D136D1;
+        margin: 0;
+    }
+    #header #nav_toggle {
+        display: block;
+    }
+    #header #nav_toggle div {
+        width: 100%;
+        position: relative;
+    }
+    #header #nav_toggle div span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        left: 0;
+        background: #FFFFFF;
+        /*
+        -webkit-transition: .35s ease-in-out;
+        -moz-transition: .35s ease-in-out;
+        transition: .35s ease-in-out;
+        */
+    }
+    #header #nav_toggle div span:nth-child(1) {
+        top: 0;
+    }
+    #header #nav_toggle div span:nth-child(2) {
+        top: 9px;
+    }
+    #header #nav_toggle div span:nth-child(3) {
+        top: 18px;
+    }
+    #header.fixed #nav_toggle div span {
+        background-color: #D136D1;
     }
 }
 
@@ -230,6 +300,9 @@ a#header_logo {
     .top {
         height: 600px;
         text-align: center;
+    }
+    .top .inner {
+        padding: 0;
     }
     .top_person {
         display: none;
