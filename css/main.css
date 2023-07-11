@@ -204,6 +204,23 @@ a#header_logo {
         background-color: #D136D1;
     }
 }
+/*header open*/
+#header.open #nav_toggle span:nth-child(1) {
+    top: 9px;
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    transform: rotate(315deg);
+}
+#header.open #nav_toggle span:nth-child(2) {
+    width: 0;
+    left: 50%;
+}
+#header.open #nav_toggle span:nth-child(3) {
+    top: 9px;
+    -webkit-transform: rotate(-315deg);
+    -moz-transform: rotate(-315deg);
+    transform: rotate(-315deg);
+}
 
 /*top*/
 .top {
