@@ -13,7 +13,8 @@ body {
     display: block;
     width: 100%;
     max-width: 1110px;
-    margin: 110px auto;
+    margin: 0 auto;
+    padding: 110px 0;
 }
 .inner:after {
     content: "";
@@ -43,7 +44,6 @@ body {
     display: block;
     font-size: 60px;
     line-height: 73px;
-    margin-top: 0;
     margin-bottom: 5px;
     color: #D136D1;
 }
@@ -69,6 +69,7 @@ body {
     position: relative;
     z-index: 901;
     margin: 0;
+    padding: 0;
 }
 .header_contents {
     display: block;
