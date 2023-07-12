@@ -580,6 +580,7 @@ a#header_logo {
         display: block;
         white-space: nowrap;
         overflow-x: scroll;
+        /* To do: fix scroll style */
     }
     .speaker_content {
         display: inline-block;
@@ -601,5 +602,56 @@ a#header_logo {
     .speaker_content img {
         width: 100%;
         height: auto;
+    }
+}
+
+/*session*/
+.session_contents {
+    display: block;
+    width: 100%;
+}
+.session .item {
+    display: block;
+    width: 100%;
+    padding-bottom: 36px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #D136D1;
+}
+.session .item:last-of-type {
+    margin-bottom: 0;
+}
+.session .item h1 {
+    display: inline-block;
+    margin-right: 141px;
+    vertical-align: top;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+}
+.session .item div {
+    display: inline-block;
+}
+.session .item div h2 {
+    color: #D136D1;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+.session .item div p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+}
+@media screen and (max-width: 1110px) {
+    .session .item h1 {
+        display: block;
+        width: 20%;
+        float: left;
+        margin-right: 0;
+    }
+    .session .item div {
+        display: block;
+        width: 100%;
+        padding-left: 20%;
     }
 }
