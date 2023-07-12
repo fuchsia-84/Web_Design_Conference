@@ -657,6 +657,11 @@ a#header_logo {
 }
 
 /*register*/
+.register {
+    background-image: url(../svg/bg.svg);
+    background-repeat: repeat;
+}
+/*register for form*/
 .form_wrapper {
     display: block;
     width: 85%;
@@ -672,12 +677,6 @@ a#header_logo {
     line-height: 17px;
     margin-left: 8px;
 }
-/*
-.form_wrapper form p input {
-    font-size: 16px;
-    line-height: 24px;
-
-*/
 .required::after {
     content: "*必須";
     color: #D136D1;
