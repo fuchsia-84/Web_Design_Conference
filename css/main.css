@@ -749,3 +749,22 @@ p#p_submit {
     margin: 40px auto 0;
     text-align: center;
 }
+
+/*footer*/
+#footer {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #141414;
+}
+#footer .inner {
+    padding: 0;
+}
+#footer p {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding: 70px 0;
+}
