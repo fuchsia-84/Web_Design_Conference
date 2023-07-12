@@ -201,6 +201,45 @@
                 <p>お申し込み</p>
             </div>
             <!-- Contents -->
+            <div class="form_wrapper">
+                <!--
+                To Do: add tag for netlify data-netlify="true"
+                -->
+                <form name="register_form" method="POST" autocomplete="off">
+                    <p id="p_radio">
+                        <label for="work">ご職業<span class="required"></span><br/></label>
+                        <input type="radio" name="work" value="会社員" required>会社員
+                        <input type="radio" name="work" value="個人事業主">個人事業主
+                        <input type="radio" name="work" value="求職中">求職中
+                        <input type="radio" name="work" value="その他">その他
+                    </p>
+                    <p>
+                        <label for="name">お名前<span class="required"></span><br/></label><input type="text" name="name" placeholder="お名前" id="name" required/>
+                    </p>
+                    <p>
+                        <label for="email">メールアドレス<span class="required"></span></label><br/><input type="text" name="email" placeholder="メールアドレス" id="email" required/>
+                    </p>
+                    <p>
+                        <label for="email">電話番号<span class="tel">半角数字ハイフンなし</span><br/></label>
+                        <input type="tel" name="tel" pattern="[\d\-]*" maxlength="11">
+                    </p>
+                    <p id="p_textarea">
+                      <label for="question">スピーカーに質問したいこと<span class="required"></span><br/></label><textarea name="question" placeholder="ご自由にお書きください" id="question" required></textarea>
+                    </p>
+                    <p id="p_list">
+                        <label for="where">WDCをどちらでお知りになりましたか？<span class="required"></span><br/></label>
+                        <select name="where" id="where">
+                            <option value="" disabled selected style="display: none;">選択してください</option>
+                            <option value="サンプル1">サンプル1</option>
+                            <option value="サンプル2">サンプル2</option>
+                            <option value="サンプル3">サンプル3</option>
+                            </select>
+                    </p>
+                    <p id="p_submit">
+                      <button class="submit_btn" type="submit">送信する</button>
+                    </p>
+                </form>
+            </div>
         </div>
     </section>
     <!-- //Register -->
