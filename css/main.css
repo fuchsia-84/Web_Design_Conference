@@ -283,6 +283,10 @@ a#header_logo {
     margin: 22.5px auto;
     text-align: center;
 }
+.top_title a:hover {
+    transform: translateY(4px);
+    box-shadow: 0 6px 0 0 #DD118E;
+}
 .top_person {
     display: block;
     width: 100%;
@@ -473,6 +477,11 @@ a#header_logo {
     line-height: 63px;
     text-align: center;
     margin: 0;
+}
+.about_right a:hover {
+    transform: translateY(4px);
+    box-shadow: 0 6px 0 0 #DD118E;
+
 }
 @media screen and (max-width: 1110px) {
     .about_left {
@@ -746,6 +755,10 @@ p#p_submit {
     line-height: 73px;
     margin: 40px auto 0;
     text-align: center;
+}
+.submit_btn:hover {
+    transform: translateY(4px);
+    box-shadow: 0 6px 0 0 #DD118E;
 }
 @media screen and (max-width: 1110px) {
     .form_wrapper form p {
