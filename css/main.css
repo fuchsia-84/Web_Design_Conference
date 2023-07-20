@@ -704,9 +704,14 @@ p#p_radio input {
     height: auto;
     border-radius: 0;
     margin-top: 0;
+}
+p#p_radio label {
     margin-left: 30px;
 }
-p#p_radio input:first-of-type {
+p#p_radio label:nth-of-type(1) {
+    margin-left: 0;
+}
+p#p_radio label:nth-of-type(2) {
     margin-left: 0;
 }
 p#p_textarea textarea {
@@ -748,6 +753,29 @@ p#p_submit {
     line-height: 73px;
     margin: 40px auto 0;
     text-align: center;
+}
+@media screen and (max-width: 1110px) {
+    .form_wrapper form p {
+        margin-left: 5%;
+    }
+    .form_wrapper form p input {
+        width: 90%;
+    }
+    p#p_textarea textarea {
+        width: 90%;
+    }
+    p#p_list select {
+        width: 90%;
+    }
+    p#p_radio label {
+        display: block;
+    }
+    p#p_radio label:nth-of-type(2) {
+        margin-left: 30px;
+    }
+    .submit_btn {
+        width: 80%;
+    }
 }
 
 /*footer*/
