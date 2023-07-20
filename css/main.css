@@ -90,9 +90,7 @@ body {
     height: 90px;
     z-index: 900;
     font-family: "Montserrat", sans-serif;
-    /*
     position: fixed;
-    */
 }
 #header .inner {
     display: block;
