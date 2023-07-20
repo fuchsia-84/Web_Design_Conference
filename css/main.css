@@ -582,7 +582,17 @@ a#header_logo {
         display: block;
         white-space: nowrap;
         overflow-x: scroll;
-        /* To do: fix scroll style */
+    }
+    .speaker_contents::-webkit-scrollbar {
+        height: 5px;
+    }
+    .speaker_contents::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background: rgba(0,0,0,0.4);
+    }
+    .speaker_contents::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: rgba(255,255,255,0.6);
     }
     .speaker_content {
         display: inline-block;
