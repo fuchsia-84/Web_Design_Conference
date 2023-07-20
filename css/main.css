@@ -703,7 +703,20 @@ a#header_logo {
         padding-left: 20%;
     }
 }
-
+@media screen and (max-width: 768px) {
+    .session .item h1 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .session .item div h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .session .item div p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
 /*register*/
 .register {
     background-image: url(../svg/bg.svg);
