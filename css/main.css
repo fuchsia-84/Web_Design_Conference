@@ -529,6 +529,20 @@ a#header_logo {
         margin: 0 auto;
     }
 }
+@media screen and (max-width: 768px) {
+    .about_right h1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .about_right h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .about_right p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
 
 /*speaker*/
 .speaker {
