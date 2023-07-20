@@ -57,6 +57,28 @@ body {
     line-height: 30px;
     margin-bottom: 57px;
 }
+@media screen and (max-width: 1110px) {
+    .title h1 {
+        font-size: 48px;
+        line-height: 54px;
+    }
+    .title p {
+        display: block;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .title h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .title p {
+        display: block;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
 
 /*header*/
 #header {
