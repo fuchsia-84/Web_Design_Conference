@@ -162,7 +162,7 @@ a#header_logo {
         top: 14px;
     }
     #global_nav {
-        display: block;
+        display: none;
         width: 100%;
         max-width: 100%;
         top: 60px;
