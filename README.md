@@ -53,3 +53,4 @@ Web上で配布された制作課題を元に、<u>**Webデザインのセミナ
 ## 参考(使用ツール等)
 
 - [Modern CSS Reset / Global Styles](https://www.joshwcomeau.com/css/custom-css-reset/)
+- [ストック写真、ロイヤリティフリーの画像、グラフィック、ベクターおよびビデオ \| Adobe Stock](https://stock.adobe.com/jp)
