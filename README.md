@@ -54,3 +54,5 @@ Web上で配布された制作課題を元に、<u>**Webデザインのセミナ
 
 - [Modern CSS Reset / Global Styles](https://www.joshwcomeau.com/css/custom-css-reset/)
 - [ストック写真、ロイヤリティフリーの画像、グラフィック、ベクターおよびビデオ \| Adobe Stock](https://stock.adobe.com/jp)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
