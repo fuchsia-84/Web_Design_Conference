@@ -53,6 +53,7 @@ body {
     line-height: 73px;
     margin-bottom: 5px;
     color: #D136D1;
+    text-transform: uppercase;
 }
 .title p {
     display: block;
@@ -134,6 +135,7 @@ a#header_logo {
     color: #fff;
     font-size: 16px;
     line-height: 18px;
+    text-transform: uppercase;
 }
 /*header fixed*/
 #header.fixed{
@@ -281,6 +283,7 @@ a#header_logo {
     font-size: 100px;
     line-height: 106px;
     letter-spacing: 0.016em;
+    text-transform: uppercase;
 }
 .top_title .date {
     font-size: 36px;
